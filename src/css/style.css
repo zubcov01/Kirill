@@ -480,11 +480,6 @@
 }
 
 .col {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-column-gap: 15px;
-          column-gap: 15px;
   padding-left: 50px;
 }
 
