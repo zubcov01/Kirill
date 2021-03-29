@@ -481,7 +481,7 @@
   padding-left: 50px;
 }
 
-.row {
+.bthfix {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
