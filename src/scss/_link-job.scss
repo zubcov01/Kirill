@@ -5,11 +5,9 @@
     background: #E5E5E5;
     display: flex;
     position: relative;
+    padding-top: 90px;
     &__card{
-        position: absolute;
-        top: 100px;
         display: flex;
-        left: 175px;
         column-gap: 15px;
     }
     &__box{

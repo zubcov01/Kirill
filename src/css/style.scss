@@ -11,8 +11,10 @@
     margin: 0 auto;
 }
 
-@import "../scss/header-main-screen";
+@import "../scss/header";
+@import "../scss/main-screen";
 @import "../scss/about-me";
+@import "../scss/my-project";
 @import "../scss/my-skills";
 @import "../scss/work";
 @import "../scss/pictures";

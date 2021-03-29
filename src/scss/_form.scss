@@ -3,23 +3,32 @@
     height: 100vh;
     background: #EEEFF1;
     padding-top: 60px;
+    padding-bottom: 200px;
     margin-top: 116px;
+    padding-left: 350px;
+    padding-right: 350px;
+    position: relative;
     &__text{
         text-align: center;
     }
     &__title{
-        margin-bottom: 25px;
         font-size: 32px;
     }
     &__descr{
+        margin-top: 20px;
         font-size: 16px;
         color: #727272
     }
 &__input{
-    margin-left: 370px;
-    margin-top: 50px;
+    position: absolute;
+    left: 26%;
+    padding-top: 25px;
+    padding-left: 15px;
+    
+    
 }
 &__button{
+position: absolute;
     width: 190px;
     height: 55px;
     background: #34547A;
@@ -28,9 +37,9 @@
     font-size: 14px;
     letter-spacing: 0.15em;
     text-transform: uppercase;
-    margin-left: -365px;
-    position: relative;
-    top: 160px;
+    left: 39%;
+    right: 40%;
+    top:435%;
     &:focus{
         outline: none;
     }
@@ -39,7 +48,6 @@
 .inputs{
     width: 255px;
     height: 50px;
-    margin-left: 30px;
     border: none;
     &::placeholder{
         position: absolute;
@@ -53,8 +61,10 @@
 .biginp{
     width: 545px;
     height: 175px;
-    margin-top: 20px;
-    margin-left: 30px;
+    position: absolute;
+    top: 155%;
+    left: 9%;
+    
     border: none;
     &::placeholder{
         position: absolute;
@@ -64,4 +74,9 @@
     &:focus{
         outline: none;
     }
+}
+.col{
+    display: flex;
+    column-gap: 15px;
+    padding-left: 50px;
 }

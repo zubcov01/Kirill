@@ -1,0 +1,29 @@
+.my-project {
+   width: 100%;
+   background: #34547A;
+   padding-top: 75px;
+   padding-bottom: 75px;
+
+   .row {
+      display: flex;
+      justify-content: center;
+
+      .col {
+         padding-left: 15px;
+         padding-right: 15px;
+      }
+   }
+
+   &__card {
+      display: flex;
+      column-gap: 30px;
+   }
+
+   &__text {
+      display: flex;
+      flex-direction: column;
+      color: white;
+      margin-left: -10px;
+      margin-top: 5px;
+   }
+}
