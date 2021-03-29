@@ -1,0 +1,21 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css");
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+@import "../scss/header-main-screen";
+@import "../scss/about-me";
+@import "../scss/my-skills";
+@import "../scss/work";
+@import "../scss/pictures";
+@import "../scss/link-job";
+@import "../scss/form";
+@import "../scss/footer";

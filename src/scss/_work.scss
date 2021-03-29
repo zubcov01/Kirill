@@ -1,0 +1,32 @@
+.work{
+    width: 100%;
+    height: 100vh;
+    background: #EEEFF1;
+    position: relative;
+    padding-top: 60px;
+}
+.how-i-work{
+    text-align: center;
+    &__title{
+        margin-bottom: 40px;
+        font-size: 32px;
+    }
+    &__descr{
+        line-height: 26px;
+    color:#727272;
+    font-size: 16px;
+    }
+    &__img{
+        width: 700px;
+        height: 350px;
+        position: relative;
+        margin-top: 20px;
+    }
+    &__play{
+        position: absolute;
+        left: 630px;
+        top: 355px;
+        width: 70px;
+        height: 70px;
+    }
+}
