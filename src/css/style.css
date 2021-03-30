@@ -158,6 +158,11 @@
   padding-bottom: 75px;
 }
 
+.my-project__pcts {
+  width: 50px;
+  height: 50px;
+}
+
 .my-project .row {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -190,7 +195,6 @@
           flex-direction: column;
   color: white;
   margin-left: -10px;
-  margin-top: 5px;
 }
 
 .my-skills {
@@ -219,7 +223,23 @@
   width: 400px;
   height: 3px;
   background: -webkit-gradient(linear, left top, right top, from(#34547A), color-stop(80%, #C4C4C4));
-  background: linear-gradient(90deg, #34547A 0% 80%, #C4C4C4 80% 100%);
+  background: linear-gradient(90deg, #34547A 0% 85%, #C4C4C4 80% 100%);
+  margin-top: 70px;
+}
+
+.my-skills__scalesj {
+  width: 400px;
+  height: 3px;
+  background: -webkit-gradient(linear, left top, right top, from(#34547A), color-stop(30%, #C4C4C4));
+  background: linear-gradient(90deg, #34547A 0% 30%, #C4C4C4 30% 100%);
+  margin-top: 70px;
+}
+
+.my-skills__scalesb {
+  width: 400px;
+  height: 3px;
+  background: -webkit-gradient(linear, left top, right top, from(#34547A), color-stop(60%, #C4C4C4));
+  background: linear-gradient(90deg, #34547A 0% 60%, #C4C4C4 60% 100%);
   margin-top: 70px;
 }
 
@@ -340,14 +360,28 @@
   display: flex;
   position: relative;
   padding-top: 90px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.link-job__mac {
+  width: 200px;
+  height: 150px;
+}
+
+.link-job__linux {
+  width: 200px;
+  height: 200px;
+  margin-top: -20px;
 }
 
 .link-job__card {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-column-gap: 15px;
-          column-gap: 15px;
+  -webkit-column-gap: 95px;
+          column-gap: 95px;
 }
 
 .link-job__box:hover {
@@ -525,9 +559,22 @@
 
 .footer__vk {
   margin-left: 10px;
+  margin-right: 10px;
 }
 
 .footer__vk:hover {
+  -webkit-transform: rotate(-360deg);
+          transform: rotate(-360deg);
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.footer__inst {
+  width: 26px;
+  height: 26px;
+}
+
+.footer__inst:hover {
   -webkit-transform: rotate(-360deg);
           transform: rotate(-360deg);
   -webkit-transition: 1s;

@@ -15,7 +15,19 @@
     &__scales {
         width: 400px;
         height: 3px;
-        background: linear-gradient(90deg, #34547A 0% 80%, #C4C4C4 80% 100%);
+        background: linear-gradient(90deg, #34547A 0% 85%, #C4C4C4 80% 100%);
+        margin-top: 70px;
+    }
+    &__scalesj{
+        width: 400px;
+        height: 3px;
+        background: linear-gradient(90deg, #34547A 0% 30%, #C4C4C4 30% 100%);
+        margin-top: 70px;
+    }
+    &__scalesb{
+        width: 400px;
+        height: 3px;
+        background: linear-gradient(90deg, #34547A 0% 60%, #C4C4C4 60% 100%);
         margin-top: 70px;
     }
 

@@ -3,6 +3,10 @@
    background: #34547A;
    padding-top: 75px;
    padding-bottom: 75px;
+   &__pcts{
+      width: 50px;
+      height: 50px;
+   }
 
    .row {
       display: flex;
@@ -24,6 +28,6 @@
       flex-direction: column;
       color: white;
       margin-left: -10px;
-      margin-top: 5px;
+      
    }
 }

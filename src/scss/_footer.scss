@@ -23,6 +23,15 @@
     }
     &__vk{
         margin-left: 10px;
+        margin-right: 10px;
+        &:hover{
+            transform: rotate(-360deg);
+            transition: 1s;
+        }
+    }
+    &__inst{
+        width: 26px;
+        height: 26px;
         &:hover{
             transform: rotate(-360deg);
             transition: 1s;
