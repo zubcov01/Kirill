@@ -449,25 +449,21 @@
 }
 
 .inputs::-webkit-input-placeholder {
-  position: absolute;
   margin-left: 20px;
   margin-top: 18px;
 }
 
 .inputs:-ms-input-placeholder {
-  position: absolute;
   margin-left: 20px;
   margin-top: 18px;
 }
 
 .inputs::-ms-input-placeholder {
-  position: absolute;
   margin-left: 20px;
   margin-top: 18px;
 }
 
 .inputs::placeholder {
-  position: absolute;
   margin-left: 20px;
   margin-top: 18px;
 }
