@@ -485,27 +485,23 @@
 }
 
 .biginp::-webkit-input-placeholder {
-  position: absolute;
-  top: 15px;
-  left: 15px;
+  margin-top: 15px;
+  margin-left: 15px;
 }
 
 .biginp:-ms-input-placeholder {
-  position: absolute;
-  top: 15px;
-  left: 15px;
+  margin-top: 15px;
+  margin-left: 15px;
 }
 
 .biginp::-ms-input-placeholder {
-  position: absolute;
-  top: 15px;
-  left: 15px;
+  margin-top: 15px;
+  margin-left: 15px;
 }
 
 .biginp::placeholder {
-  position: absolute;
-  top: 15px;
-  left: 15px;
+  margin-top: 15px;
+  margin-left: 15px;
 }
 
 .biginp:focus {
@@ -708,7 +704,7 @@
   .main-screen__descr {
     width: 300px;
     position: absolute;
-    top: 49%;
+    top: 51%;
     left: 10%;
     text-align: center;
   }
