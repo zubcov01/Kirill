@@ -1,16 +1,9 @@
 .my-skills {
+    padding: 100px 0;
     position: relative;
     width: 100%;
-    height: 500px;
     background: #E5E5E5;
     display: flex;
-
-    &__knows {
-        display: flex;
-        flex-direction: column;
-        margin-top: 100px;
-        margin-left: -500px;
-    }
 
     &__scales {
         width: 400px;
@@ -32,25 +25,30 @@
     }
 
     &__descr {
-        margin-top: -25px;
+        position: absolute;
+        margin-top: 10px;
         color: #727272;
     }
-
-    &__image {
-        width: 455px;
-        height: 450px;
-        position: absolute;
-        top:25px;
-        right: 0;
-        left: 57%;
-        margin-right: 200px;
-        
-        &:hover{
-            transform: scale(1.2);
-            transition: 1s;
-            cursor: zoom-in;
+    .row {
+        display: flex;
+        width: 100%;
+        margin-right: -15px;
+        margin-left: -15px;
+        flex-wrap: wrap;
+        .col {
+            flex-basis: auto;
+            padding-left: 15px;
+            padding-right: 15px;
+            width: 50%;
+            align-self: center;
         }
-
-
+    }
+    &__image {
+        width: 80%;
+        &:hover{
+        transform: scale(1.2);
+        transition: 1.5s;
+        cursor: zoom-in;
+        }
     }
 }
