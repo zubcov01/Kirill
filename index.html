@@ -7,13 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./src/css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
-    <header class="header">
+    <header class="header" id="header">
         <div class="container">
             <div class="header__wrapper">
-                <a href="#"><img src="./src/image/header/WD.png" alt="" class="header__logo"></a>
+                <a href="#header"><img src="./src/image/header/WD.png" alt="" class="header__logo"></a>
                 <nav class="nav">
                     <ul class="nav__menu">
                         <li class="nav__item"><a href="#main" class="nav__link">ГЛАВНАЯ</a></li>
@@ -50,9 +51,11 @@
                 </div>
             </div>
         </section>
-        <section id="about" class="about-me">
+        <section id="about" class="about-me" >
             <div class="container">
-                <div class="about-me__elm">
+                <div class="about-me__elm" data-aos="zoom-in"
+                data-aos-duration="500"
+                >
                     <h2 class="about-me__title">Обо мне</h2>
                     <p class="about-me__descr">Lorem Ipsum - это текст-"рыба", часто используемый в печати и <br>
                         вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов <br> на латинице с начала XVI
@@ -61,7 +64,8 @@
             </div>
         </section>
         <section id="project" class="my-project">
-            <div class="row">
+            <div class="row" data-aos="fade-up"
+            data-aos-duration="1000">
                 <div class="col">
                     <div class="my-project__card">
                         <img src="./src/image/about-me/proj.png" alt="" class="my-project__pcts">
@@ -121,7 +125,8 @@
             <div class="container">
                 <div class="my-skills__knows">
                     <div class="row">
-                        <div class="col">
+                        <div class="col" data-aos="fade-up-right"
+                        data-aos-duration="1000">
                             <h2 class="my-skills__title">Мои Навыки</h2>
                             <div class="my-skills__scales">
                                 <p class="my-skills__descr">HTML and CSS</p>
@@ -133,7 +138,9 @@
                                 <p class="my-skills__descr">JQuery</p>
                             </div>
                         </div>
-                        <div class="col">
+                        <div class="col" data-aos="fade-down-left"
+                        data-aos-duration="1000"
+                        >
                             <img src="./src/image/my-skills/IMG_5819.jpg" alt="" class="my-skills__image">
                         </div>
                     </div>
@@ -146,14 +153,17 @@
         <section class="work">
             <div class="container">
                 <div class="how-i-work">
-                    <h2 class="how-i-work__title">Как я работаю </h2>
-                    <p class="how-i-work__descr">Lorem Ipsum - это текст-"рыба", часто используемый в печати и
-                        <br>
-                        вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов <br> на латинице с
-                        начала XVI
-                        века.
-                    </p>
-                    <div class="how-i-work__video">
+                    <div class="how-i-work__text" data-aos="fade-down" data-aos-duration="1000">
+
+                        <h2 class="how-i-work__title">Как я работаю </h2>
+                        <p class="how-i-work__descr">Lorem Ipsum - это текст-"рыба", часто используемый в печати и
+                            <br>
+                            вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов <br> на латинице с
+                            начала XVI
+                            века.
+                        </p>
+                    </div>
+                    <div class="how-i-work__video" data-aos="flip-left" data-aos-duration="1500">
                         <img class="how-i-work__img" src="./src/image/work/array.png" alt="">
                         <a data-fancybox
                             href="https://www.youtube.com/watch?v=tB1SYaSOH4Q&ab_channel=%D0%93%D0%B5%D0%BD%D0%BD%D0%B0%D0%B4%D0%B8%D0%B9%D0%9B%D0%B5%D0%B4%D0%BE%D0%BA%D0%BE%D0%BB">
@@ -164,7 +174,6 @@
             </div>
         </section>
         <section class="pictures" id="pictures">
-
             <div class="pictures__card">
                 <div class="pictures__box">
                     <img src="./src/image/pictures/zapisi.png" class="pictures__image" alt="">
@@ -191,15 +200,15 @@
         <section class="link-job">
             <div class="container">
                 <div class="link-job__card">
-                    <div class="link-job__box">
+                    <div class="link-job__box" data-aos="fade-right" data-aos-duration="1000">
                         <a href="https://www.microsoft.com/ru-ru"><img src="./src/image/link-job/Microsoft.png"
                                 alt=""></a>
                     </div>
-                    <div class="link-job__box">
+                    <div class="link-job__box" data-aos="fade-down" data-aos-duration="1000">
                         <a href="https://www.apple.com/macos/big-sur/"><img src="./src/image/link-job/12448618.png"
                                 alt="" class="link-job__mac"></a>
                     </div>
-                    <div class="link-job__box">
+                    <div class="link-job__box" data-aos="fade-left" data-aos-duration="1000">
                         <a href="https://www.linux.org/"><img src="./src/image/link-job/1200px-Tux.svg.png"
                                 class="link-job__linux" alt=""></a>
                     </div>
@@ -217,15 +226,15 @@
                 </div>
                 <div class="form__input">
                     <div class="col">
-                        <input type="text" placeholder="Ваше имя" class="inputs" inputmode="text">
-                        <input type="text" placeholder="Ваш e-mail" class="inputs" inputmode="email">
+                        <input type="text" placeholder="Ваше имя" class="inputs" inputmode="text" data-aos="flip-right" data-aos-duration="1500">
+                        <input type="text" placeholder="Ваш e-mail" class="inputs" inputmode="email" data-aos="flip-left" data-aos-duration="1500">
                     </div>
 
 
-                    <input type="text" placeholder="Номер Телефона" class="biginp" inputmode="tel">
+                    <input type="text" placeholder="Номер Телефона" class="biginp" inputmode="tel" data-aos="flip-up" data-aos-duration="2000">
                     <div class="bthfix">
 
-                        <button class="form__button">Отправить</button>
+                        <button data-aos="zoom-out" data-aos-duration="2000" class="form__button">Отправить</button>
                     </div>
                 </div>
             </div>
@@ -235,11 +244,11 @@
 
     <footer id="contact" class="footer">
         <div class="container">
-            <div class="footer__text">
+            <div class="footer__text" data-aos="fade-down" data-aos-duration="1000">
                 <h2 class="footer__title">Зубцов Кирилл</h2>
                 <p class="descr">(с) 2021. Все права защищены.</p>
             </div>
-            <div class="footer__pcts">
+            <div class="footer__pcts" data-aos="fade-up" data-aos-duration="1000">
                 <a href="https://www.instagram.com/zubcov01/"><img src="./src/image/footer/instagram.png" alt=""
                         class="footer__inst"></a>
                 <a href="https://ru.wikipedia.org/wiki/%D0%92%D0%9A%D0%BE%D0%BD%D1%82%D0%B0%D0%BA%D1%82%D0%B5"><img
@@ -249,6 +258,7 @@
             </div>
         </div>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
     <script src="./main.js"></script>
