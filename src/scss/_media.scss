@@ -116,12 +116,12 @@
             width: 270px;
             height: 180px;
             margin-left: 22%;
-            margin-top: -36%;
+            margin-top: -6%;
         }
 
         &__btn {
             position: absolute;
-            top: 75%;
+            top: 83%;
             left: 20%;
 
         }
@@ -129,7 +129,7 @@
         &__descr {
             width: 300px;
             position: absolute;
-            top: 51%;
+            top: 55%;
             left: 10%;
             text-align: center;
         }
@@ -183,6 +183,7 @@
         }
     }
     .pictures{
+        margin-top: -125px;
         height: 261px;
         &__card{
             height: 377px;
