@@ -1,4 +1,4 @@
-.form{
+.form {
     display: flex;
     width: 100%;
     height: 100vh;
@@ -9,74 +9,89 @@
     padding-left: 300px;
     padding-right: 300px;
     position: relative;
-    &__text{
+
+    &__text {
         text-align: center;
     }
-    &__title{
+
+    &__title {
         font-size: 32px;
     }
-    &__descr{
+
+    &__descr {
         margin-top: 20px;
         font-size: 16px;
         color: #727272
     }
-&__input{
-    width: 100%;
-    padding-top: 25px;
-    margin-right: 40px;
-    
-}
-&__button{
-    
-    width: 190px;
-    height: 55px;
-    background: #34547A;
-    color: white;
-    border: none;
-    font-size: 14px;
-    letter-spacing: 0.15em;
-    text-transform: uppercase;
-    
-    &:focus{
-        outline: none;
+
+    &__input {
+        width: 100%;
+        padding-top: 25px;
+        margin-right: 40px;
+
+    }
+
+    &__button {
+
+        width: 190px;
+        height: 55px;
+        background: #34547A;
+        color: white;
+        border: none;
+        font-size: 14px;
+        letter-spacing: 0.15em;
+        text-transform: uppercase;
+
+        &:focus {
+            outline: none;
+        }
     }
 }
-}
-.inputs{
+
+.inputs {
     width: 255px;
     height: 50px;
     border: none;
-    &::placeholder{
-      margin-left: 20px;
-      margin-top: 18px;
+    padding-left: 10px;
+
+    &::placeholder {
+        margin-left: 20px;
+        margin-top: 18px;
     }
-    &:focus{
+
+    &:focus {
         outline: none;
     }
 }
-.biginp{
+
+.biginp {
     width: 545px;
     height: 175px;
     margin-top: 15px;
     margin-left: 35px;
-    
+    padding-left: 10px;
+
     border: none;
-    &::placeholder{
-       margin-top: 15px;
-       margin-left: 15px;
+
+    &::placeholder {
+        margin-top: 15px;
+        margin-left: 15px;
     }
-    &:focus{
+
+    &:focus {
         outline: none;
     }
 }
-.col{
+
+.col {
     padding-left: 50px;
 }
-.bthfix{
+
+.bthfix {
     display: flex;
     justify-content: center;
     position: absolute;
-   left: 0;
-   right: 0;    
-   top: 75%;
+    left: 0;
+    right: 0;
+    top: 75%;
 }

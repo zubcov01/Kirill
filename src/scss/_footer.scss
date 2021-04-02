@@ -1,38 +1,46 @@
-.footer{
+.footer {
     width: 100%;
     height: 151px;
     background: #34547A;
-    &__text{
-        color:white;
+
+    &__text {
+        color: white;
         position: relative;
         top: 60px;
         margin-left: 250px;
     }
-    &__title{
+
+    &__title {
         font-size: 21px;
         font-weight: 500;
     }
-    &__descr{
+
+    &__descr {
         font-size: 13px;
         font-weight: normal;
     }
-    &__pcts{
+
+    &__pcts {
         position: absolute;
         right: 250px;
         margin-top: 25px;
     }
-    &__vk{
+
+    &__vk {
         margin-left: 10px;
         margin-right: 10px;
-        &:hover{
+
+        &:hover {
             transform: rotate(-360deg);
             transition: 1s;
         }
     }
-    &__inst{
+
+    &__inst {
         width: 26px;
         height: 26px;
-        &:hover{
+
+        &:hover {
             transform: rotate(-360deg);
             transition: 1s;
         }

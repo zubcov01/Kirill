@@ -1,12 +1,14 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css");
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
-.container{
+
+.container {
     max-width: 1150px;
     margin: 0 auto;
 }

@@ -104,6 +104,7 @@
 
     .main-screen {
         height: 80vh;
+
         &__title {
             display: flex;
             justify-self: center;
@@ -136,9 +137,10 @@
     }
 
     .my-project {
-        &__text{
+        &__text {
             margin-left: 10px;
-                }
+        }
+
         .row {
             flex-wrap: wrap;
 
@@ -155,113 +157,136 @@
                 width: 100%;
             }
         }
-        &__title{
+
+        &__title {
             margin-left: 15px;
         }
-        &__image{
-            margin-top: 55px; 
+
+        &__image {
+            margin-top: 55px;
             margin-left: 47px;
         }
-        &__scales{
+
+        &__scales {
             width: 360px;
             margin-left: 10px;
         }
-        &__scalesj{
+
+        &__scalesj {
             width: 360px;
             margin-left: 10px;
         }
-        &__scalesb{
+
+        &__scalesb {
             width: 360px;
             margin-left: 10px;
         }
     }
-    .how-i-work{
-        &__img{
+
+    .how-i-work {
+        &__img {
             width: 373px;
             margin-top: 30px;
-            
+
         }
-        &__btn{
+
+        &__btn {
             margin-top: 10px;
         }
     }
-    .pictures{
+
+    .pictures {
         margin-top: -125px;
         height: 261px;
-        &__card{
+
+        &__card {
             height: 377px;
         }
-        &__pictures{
+
+        &__pictures {
             height: 261px;
         }
-        &__box{
+
+        &__box {
             height: 186px;
         }
-        &__image{
+
+        &__image {
             height: 188px;
         }
 
     }
-.link-job{
-    padding-bottom: 100px;
-    height: 70vh;
-    &__card{
-        flex-direction: column;
-        margin-left: 10px;
-        
-    }
-    &__mac{
-        margin-left: 25px;
-    }
-    &__linux{
-        margin-left: 18px;
-        margin-top: 5px;
+
+    .link-job {
+        padding-bottom: 100px;
+        height: 70vh;
+
+        &__card {
+            flex-direction: column;
+            margin-left: 10px;
+
+        }
+
+        &__mac {
+            margin-left: 25px;
+        }
+
+        &__linux {
+            margin-left: 18px;
+            margin-top: 5px;
+        }
+
+
     }
 
-    
-}
-.form{
-    padding: 0;
-    padding-top: 40px;
-    &__input{
-   position: absolute;
-   width: 300px;
-   left: 30px;
+    .form {
+        padding: 0;
+        padding-top: 40px;
+
+        &__input {
+            position: absolute;
+            width: 300px;
+            left: 30px;
+        }
+
+
+        .inputs {
+            width: 100px;
+        }
+
+        .biginp {
+            width: 200px;
+            margin-left: 50px;
+
+            margin-bottom: 150px;
+        }
+
     }
 
-    
-.inputs{
-    width: 100px;
-}
-.biginp{
-    width: 200px;
-    margin-left: 50px;
-    
-    margin-bottom: 150px;
-}
+    .footer {
 
-}
-.footer{
-    
-    position: relative;
-    &__pcts{
-        display: flex;
-        align-items: center;
-        flex-direction: column;
+        position: relative;
+
+        &__pcts {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        &__text {
+            position: absolute;
+
+            top: 20px;
+            margin-left: 0;
+            right: 30px;
+            width: 100px;
+            margin: 0;
+        }
+
+        &__vk {
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
     }
-    &__text{
-        position: absolute;
-       
-        top: 20px;
-        margin-left: 0;
-        right: 30px;
-        width: 100px;
-        margin: 0;
-    }
-    &__vk{
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
-    
-}
 }
