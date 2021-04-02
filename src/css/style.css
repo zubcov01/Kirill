@@ -705,7 +705,7 @@
     text-align: center;
   }
   .my-project__text {
-    margin-left: 1px;
+    margin-left: 10px;
   }
   .my-project .row {
     -ms-flex-wrap: wrap;
