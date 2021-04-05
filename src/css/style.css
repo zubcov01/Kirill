@@ -372,10 +372,24 @@
   height: 150px;
 }
 
+.link-job__mac:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: 1.5s;
+  transition: 1.5s;
+}
+
 .link-job__linux {
   width: 200px;
   height: 200px;
   margin-top: -20px;
+}
+
+.link-job__linux:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: 1.5s;
+  transition: 1.5s;
 }
 
 .link-job__card {
@@ -387,6 +401,13 @@
 }
 
 .link-job__box:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: 1.5s;
+  transition: 1.5s;
+}
+
+.link-job__mcrsf:hover {
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
   -webkit-transition: 1.5s;
