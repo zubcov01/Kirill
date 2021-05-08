@@ -50,11 +50,5 @@
 
     &__image {
         width: 80%;
-
-        &:hover {
-            transform: scale(1.2);
-            transition: 1.5s;
-            cursor: zoom-in;
-        }
     }
 }

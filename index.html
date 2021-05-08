@@ -11,6 +11,7 @@
 </head>
 
 <body>
+    <div id="root"></div>
     <header class="header" id="header">
         <div class="container">
             <div class="header__wrapper">
@@ -37,7 +38,7 @@
                     <div class="col">
                         <img src="./src/image/main-screen/laptop.png" alt="" class="main-screen__lapt">
                     </div>
-                    <div class="col">
+                    <div id = 'col-btn' class="col">
                         <h2 class="main-screen__title">Дизайн и верстка</h2>
                         <p class="main-screen__descr">Lorem Ipsum - это текст-"рыба", часто используемый в печати и
                             <br>
@@ -46,7 +47,7 @@
                             XVI
                             века.
                         </p>
-                        <button class="main-screen__btn">Напиши Мне</button>
+                        <button id="btn__modal" class="main-screen__btn">Напиши Мне</button>
                     </div>
                 </div>
             </div>
@@ -141,7 +142,11 @@
                         <div class="col" data-aos="fade-down-left"
                         data-aos-duration="1000"
                         >
-                            <img src="./src/image/my-skills/IMG_5819.jpg" alt="" class="my-skills__image">
+                        <a href="./src/image/my-skills/IMG_5819.jpg" data-fancybox="images" data-caption="Me" >
+                            <img src="./src/image/my-skills/IMG_5819.jpg"alt="" class="my-skills__image">
+                        
+                        </a>
+                            
                         </div>
                     </div>
 
@@ -226,7 +231,7 @@
                 </div>
                 <div class="form__input">
                     <div class="col">
-                        <input type="text" placeholder="Ваше имя" class="inputs" inputmode="text" data-aos="flip-right" data-aos-duration="1500">
+                        <input required type="text" placeholder="Ваше имя" class="inputs" inputmode="text" data-aos="flip-right" data-aos-duration="1500">
                         <input type="text" placeholder="Ваш e-mail" class="inputs" inputmode="email" data-aos="flip-left" data-aos-duration="1500">
                     </div>
 

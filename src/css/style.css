@@ -133,6 +133,88 @@
   outline: none;
 }
 
+.overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: #00000080;
+  display: none;
+}
+
+.overlay__modal-window {
+  position: fixed;
+  left: 39%;
+  top: 15%;
+  width: 300px;
+  height: 400px;
+  background: #E5E5E5;
+  position: relative;
+}
+
+.active {
+  display: block;
+}
+
+.exit-btn {
+  width: 25px;
+  height: 25px;
+  background: #a7a4a4;
+  border: none;
+  font-size: 20px;
+}
+
+.modal-inp {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 40px;
+  left: 45px;
+}
+
+.modal-inp:focus {
+  outline: none;
+}
+
+.modal-inp::-webkit-input-placeholder {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  font-size: 15px;
+}
+
+.modal-inp:-ms-input-placeholder {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  font-size: 15px;
+}
+
+.modal-inp::-ms-input-placeholder {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  font-size: 15px;
+}
+
+.modal-inp::placeholder {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  font-size: 15px;
+}
+
+.inpBtn {
+  position: absolute;
+  top: 270px;
+  left: 45px;
+  width: 200px;
+  height: 50px;
+  background: #34547A;
+  color: white;
+  border: none;
+  font-size: 14px;
+}
+
 .about-me {
   width: 100%;
   height: 320px;
@@ -259,15 +341,6 @@
 
 .my-skills__image {
   width: 80%;
-}
-
-.my-skills__image:hover {
-  -webkit-transform: scale(1.2);
-          transform: scale(1.2);
-  -webkit-transition: 1.5s;
-  transition: 1.5s;
-  cursor: -webkit-zoom-in;
-  cursor: zoom-in;
 }
 
 .work {

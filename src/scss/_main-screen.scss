@@ -46,3 +46,58 @@
         }
     }
 }
+.overlay{
+width: 100%;
+height: 100%;
+position: absolute;
+background: #00000080;
+display: none;
+   &__modal-window{
+       position: fixed;
+       left: 39%;
+       top: 15%;
+    width: 300px;
+    height: 400px;
+    background: #E5E5E5;
+    position: relative;
+    
+    
+} 
+}
+.active{
+        display: block;
+    }
+    .exit-btn{
+        width: 25px;
+        height: 25px;
+        background: #a7a4a4;
+        border: none;
+        font-size: 20px;
+    }
+    .modal-inp{
+        width: 200px;
+        height: 200px;
+        position: absolute;
+        top: 40px;
+        left: 45px;
+        &:focus {
+            outline: none;
+        }
+        &::placeholder{
+            position: absolute;
+            top: 5px;
+            left: 5px; 
+            font-size: 15px;
+        }
+    }
+    .inpBtn{
+        position: absolute;
+        top: 270px;
+        left: 45px;
+        width: 200px;
+        height: 50px;
+        background: #34547A;
+        color: white;
+        border: none;
+        font-size: 14px;
+    }
