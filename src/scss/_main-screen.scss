@@ -52,6 +52,7 @@ height: 100%;
 position: absolute;
 background: #00000080;
 display: none;
+z-index: 1;
    &__modal-window{
        position: fixed;
        left: 39%;
@@ -60,7 +61,7 @@ display: none;
     height: 400px;
     background: #E5E5E5;
     position: relative;
-    
+    z-index:2;
     
 } 
 }
@@ -70,9 +71,10 @@ display: none;
     .exit-btn{
         width: 25px;
         height: 25px;
-        background: #a7a4a4;
+        background: #34547A;
         border: none;
         font-size: 20px;
+        color: white;
     }
     .modal-inp{
         width: 200px;

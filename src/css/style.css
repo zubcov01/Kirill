@@ -9,6 +9,10 @@
   scroll-behavior: smooth;
 }
 
+.body {
+  overflow: hidden;
+}
+
 .container {
   max-width: 1150px;
   margin: 0 auto;
@@ -139,6 +143,7 @@
   position: absolute;
   background: #00000080;
   display: none;
+  z-index: 1;
 }
 
 .overlay__modal-window {
@@ -149,6 +154,7 @@
   height: 400px;
   background: #E5E5E5;
   position: relative;
+  z-index: 2;
 }
 
 .active {
@@ -158,9 +164,10 @@
 .exit-btn {
   width: 25px;
   height: 25px;
-  background: #a7a4a4;
+  background: #34547A;
   border: none;
   font-size: 20px;
+  color: white;
 }
 
 .modal-inp {
@@ -919,5 +926,9 @@
     margin-top: 10px;
     margin-bottom: 10px;
   }
+}
+
+.overlay__modal-window {
+  left: 10%;
 }
 /*# sourceMappingURL=style.css.map */
