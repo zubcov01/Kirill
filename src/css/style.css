@@ -926,9 +926,8 @@
     margin-top: 10px;
     margin-bottom: 10px;
   }
-}
-
-.overlay__modal-window {
-  left: 10%;
+  .overlay__modal-window {
+    left: 10%;
+  }
 }
 /*# sourceMappingURL=style.css.map */
